@@ -24,20 +24,20 @@ body {
   background-color: rgba(0,0,0,.5);
   width: 540px;
   padding: 10px;
-  border: 5px solid gray;
+  border: 2px #B5838D;
   border-radius: 15px;
   font-size: 20px;
   margin: 250px 50px;
-  color:#B3001B;
+  color:#FFB4A2;
   text-shadow: #262626;
 }
 .text2 {
   position: absolute;
   bottom: 340px;
   background-color: rgba(0,0,0,.5);
-  width: 590px;
+  width: 700px;
   padding: 10px;
-  border: 5px solid gray;
+  border: 2px #B5838D;
   border-radius: 15px;
   font-size: 20px;
   margin: 0px 50px;
@@ -45,14 +45,14 @@ body {
   text-shadow: #262626;
 }
 h1 {
-    color: #B3001B;
+    color: #E5989B;
 }
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
-  background-color: #262626;
+  background-color: #6D6875;
 }
 
 nav {
@@ -63,7 +63,7 @@ nav {
 .cta,
 .overlay__content a {
   font-weight: 500;
-  color: #edf0f1;
+  color: #FFCD82;
   text-decoration: none;
 }
 
@@ -196,7 +196,7 @@ ul{
 }
 .footer-col h4{
 	font-size: 18px;
-	color: #B3001B;
+	color: #FFB4A2;
 	text-transform: capitalize;
 	margin-bottom: 35px;
 	font-weight: 500;
