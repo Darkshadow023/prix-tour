@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmed!</title>
+</head>
+<body>
+    <div style="text-align:center; margin-top: 250px;">
+        <img src="load.gif" alt="load" width="70px">
+        <h1>Thank you!</h1>
+        <p>Your submission has been received.</p>
+        <p>This page will redirect in <span id="timer"></span>s.</p>
+    </div>
+    <script type="text/javascript">
+        var count = 4; 
+var redirect = "Index.html"; 
+
+function countDown() {
+if(count >= 0){
+    document.getElementById("timer").innerHTML = count--;
+    setTimeout("countDown()", 1000);
+}else{
+    window.location.href = redirect;
+}
+}
+    countDown();
+</script>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+    body{
+        color: white;
+        background-color: #262626;
+        font-family: "Montserrat", sans-serif;
+    }
+</style>
+</body>
+</html>
