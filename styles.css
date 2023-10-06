@@ -60,11 +60,13 @@ nav {
 }
 
 .nav__links a,
-.cta,
 .overlay__content a {
   font-weight: 500;
   color: #FFCD82;
   text-decoration: none;
+}
+.cta{
+	color: #ffff
 }
 
 .nav__links {
